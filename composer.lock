@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "789150ce106a1ac138472b119cb91dfe",
+    "content-hash": "185c859da31d11e1a80012411e3ebfcd",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -7471,16 +7471,16 @@
         },
         {
             "name": "summerblue/generator",
-            "version": "1.0.0",
+            "version": "7.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/summerblue/generator.git",
-                "reference": "f7248126fb11ed49a2dcaa373377d5649c52aac7"
+                "reference": "4b503ed760ddbe96e849469975458d97503e0378"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/summerblue/generator/zipball/f7248126fb11ed49a2dcaa373377d5649c52aac7",
-                "reference": "f7248126fb11ed49a2dcaa373377d5649c52aac7",
+                "url": "https://api.github.com/repos/summerblue/generator/zipball/4b503ed760ddbe96e849469975458d97503e0378",
+                "reference": "4b503ed760ddbe96e849469975458d97503e0378",
                 "shasum": "",
                 "mirrors": [
                     {
@@ -7493,8 +7493,8 @@
                 "php": ">=7.0.0"
             },
             "require-dev": {
-                "laravel/laravel": "5.5.*",
-                "phpunit/phpunit": "~5.7"
+                "laravel/laravel": "7.*",
+                "phpunit/phpunit": "^8.0"
             },
             "type": "library",
             "extra": {
@@ -7520,17 +7520,17 @@
                 },
                 {
                     "name": "Summer",
-                    "email": "summer@yousails.com"
+                    "email": "summer@learnku.com"
                 }
             ],
-            "description": "Extend Laravel 5.5's generators scaffold.",
+            "description": "Extend Laravel's generators scaffold.",
             "keywords": [
                 "generators",
                 "laravel",
                 "laravel5",
                 "scaffold"
             ],
-            "time": "2018-12-23T03:55:07+00:00"
+            "time": "2020-07-31T07:37:07+00:00"
         },
         {
             "name": "theseer/tokenizer",
