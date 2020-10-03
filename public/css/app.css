@@ -17082,6 +17082,7 @@ body {
   height: 60px;
   background-color: #000;
   /* User register page */
+  /* Topic Index Page */
 }
 
 .footer .container {
@@ -17103,5 +17104,44 @@ body {
   border: 1px solid #ced4da;
   border-radius: 4px;
   padding: 3px;
+}
+
+.footer .topics-index-page {
+  /* Add container and footer space */
+}
+
+.footer .topics-index-page .topic-list .nav > li > a {
+  position: relative;
+  display: block;
+  padding: 5px 14px;
+  font-size: 0.9em;
+}
+
+.footer .topics-index-page .topic-list a {
+  color: #444444;
+}
+
+.footer .topics-index-page .topic-list .meta {
+  font-size: 0.9em;
+  color: #b3b3b3;
+}
+
+.footer .topics-index-page .topic-list .meta a {
+  color: #b3b3b3;
+}
+
+.footer .topics-index-page .topic-list .badge {
+  background-color: #d8d8d8;
+}
+
+.footer .topics-index-page .topic-list hr {
+  margin-top: 12px;
+  margin-bottom: 12px;
+  border: 0;
+  border-top: 1px solid #dcebf5;
+}
+
+.footer .topics-index-page #app > div.container {
+  margin-bottom: 100px;
 }
 
