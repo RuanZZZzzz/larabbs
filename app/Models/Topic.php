@@ -18,6 +18,8 @@ class Topic extends Model
     {
         return $this->belongsTo(User::class);
     }
+
+
     public function scopeWithOrder($query, $order)
     {
         // 不同的排序，使用不同的数据读取逻辑
