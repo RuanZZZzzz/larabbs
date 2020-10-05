@@ -17106,42 +17106,50 @@ body {
   padding: 3px;
 }
 
-.footer .topics-index-page {
+.footer .topics-index-page,
+.footer .categories-show-page {
   /* Add container and footer space */
 }
 
-.footer .topics-index-page .topic-list .nav > li > a {
+.footer .topics-index-page .topic-list .nav > li > a,
+.footer .categories-show-page .topic-list .nav > li > a {
   position: relative;
   display: block;
   padding: 5px 14px;
   font-size: 0.9em;
 }
 
-.footer .topics-index-page .topic-list a {
+.footer .topics-index-page .topic-list a,
+.footer .categories-show-page .topic-list a {
   color: #444444;
 }
 
-.footer .topics-index-page .topic-list .meta {
+.footer .topics-index-page .topic-list .meta,
+.footer .categories-show-page .topic-list .meta {
   font-size: 0.9em;
   color: #b3b3b3;
 }
 
-.footer .topics-index-page .topic-list .meta a {
+.footer .topics-index-page .topic-list .meta a,
+.footer .categories-show-page .topic-list .meta a {
   color: #b3b3b3;
 }
 
-.footer .topics-index-page .topic-list .badge {
+.footer .topics-index-page .topic-list .badge,
+.footer .categories-show-page .topic-list .badge {
   background-color: #d8d8d8;
 }
 
-.footer .topics-index-page .topic-list hr {
+.footer .topics-index-page .topic-list hr,
+.footer .categories-show-page .topic-list hr {
   margin-top: 12px;
   margin-bottom: 12px;
   border: 0;
   border-top: 1px solid #dcebf5;
 }
 
-.footer .topics-index-page #app > div.container {
+.footer .topics-index-page #app > div.container,
+.footer .categories-show-page #app > div.container {
   margin-bottom: 100px;
 }
 
