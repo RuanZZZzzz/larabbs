@@ -33,11 +33,16 @@ class User extends Authenticatable implements MustVerifyEmailContract
  * @param string $value
  * @return string
  */
-public function getAvatarAttribute($value)
-{
-    if (empty($value)) {
-        return 'https://cdn.learnku.com/uploads/images/201709/20/1/PtDKbASVcz.png?imageView2/1/w/600/h/60';
+    public function getAvatarAttribute($value)
+    {
+        if (empty($value)) {
+            return 'https://cdn.learnku.com/uploads/images/201709/20/1/PtDKbASVcz.png?imageView2/1/w/600/h/60';
+        }
+        return $value;
     }
-    return $value;
-}
+
+    public function isAuthorOf($model)
+    {
+        return $this->id == $model->user_id;
+    }
 }
