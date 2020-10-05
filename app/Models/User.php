@@ -23,6 +23,11 @@ class User extends Authenticatable implements MustVerifyEmailContract
         'email_verified_at' => 'datetime',
     ];
 
+    public function topics()
+    {
+        return $this->hasMany(Topic::class);
+    }
+
     /**
  * 访问器-头像链接字段
  * @param string $value
